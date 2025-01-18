@@ -1,0 +1,27 @@
+.body-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.body-input{
+    width: 40vw;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(219, 219, 219);
+    font-size: large;
+    font-weight: 400;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+
+.body-button{
+    height: 60px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 180px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(22, 22, 22);
+}

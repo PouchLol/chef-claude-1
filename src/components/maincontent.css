@@ -1,0 +1,10 @@
+.ingredients-header{
+    margin-left: 40px;
+    font-family: "Inter",serif;
+}
+.ingredients-list{
+    font-size: 28px;
+    margin-left: 80px;
+    line-height: 3rem;
+    font-family: "Inter",serif;
+}
