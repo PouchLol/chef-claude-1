@@ -1,6 +1,6 @@
 .ingredients-header{
     margin-left: 40px;
-    font-family: "Inter",serif;
+    font-family: "Inter", serif;
 }
 .ingredients-list{
     font-size: 28px;
@@ -8,3 +8,30 @@
     line-height: 3rem;
     font-family: "Inter",serif;
 }
+.ingredients-submit{
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    width: 700px;
+    background-color: bisque;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    margin-bottom: 100px;
+    border-radius: 12px;
+}
+.ingredients-text{
+    width: 350px;
+}
+.ingredients-submit-btn{
+    height: 60px;
+
+    font-weight: 600;
+    font-size: 16px;
+    width: 180px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(204, 79, 20);
+}
+
