@@ -11,7 +11,7 @@
 .ingredients-submit{
     display: flex;
     justify-content: space-around;
-    height: 15vh;
+    height: 20vh;
     width: 700px;
     background-color: bisque;
     align-items: center;
@@ -26,7 +26,6 @@
 }
 .ingredients-submit-btn{
     height: 60px;
-
     font-weight: 600;
     font-size: 16px;
     width: 180px;   
@@ -39,9 +38,8 @@
 .footer{
     box-shadow: 1px 0px 0px 3px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
     width: 100%;
-
     padding: 20px 0px;
-    transform: translate(0%,60vh);
+    transform: translate(0%,40vh);
     margin-top: 30px;
 
 }

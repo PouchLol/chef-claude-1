@@ -1,4 +1,6 @@
 .recipe{
-    height: 100px;
+    height: fit-content;
     margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
 }
