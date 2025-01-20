@@ -4,7 +4,7 @@ import "./input.css"
 import { useState } from "react"
 import Footer from "./Footer.jsx"
 import IngredientsList from "./ingredientsList.jsx"
-import Recipe from "./recipe.jsx"
+import Recipe from "./claudeRecipe.jsx"
 
 const recipe = <p>girl do your own cooking lazy ass</p>
 export default function MainContent(){
@@ -32,11 +32,9 @@ export default function MainContent(){
             <input aria-label="add-ingredient" name="ingredient" className="body-input" id="input-text" placeholder="eg: oregano"></input>
             <button className="body-button"> + Add ingredient!</button>
         </form>
-        <IngredientsList elements={ulElements} length={ulElements.length-1}/>
-        <Recipe length={ulElements.length-1} recipeSubmit={recipeSubmit}/>
-        <div className="recipe">
-            {recipeShown && recipe}
-        </div>    
+        <IngredientsList elements={ulElements} length={ulElements.length-1} recipeSubmit={recipeSubmit} />
+        <Recipe recipe={recipe} recipeShown={recipeShown}/>
+        
         <Footer></Footer>
         </>
     )
